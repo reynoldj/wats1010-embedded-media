@@ -1,4 +1,4 @@
-/******************************************************************************
+*****************
  * WATS1010: Introduction to Web Development
  * Embedded Media Assignment
  *
@@ -7,4 +7,138 @@
 
  html {
      color: green;
- }
+     padding: 0;
+}
+
+body {
+    background-color: aqua;
+    margin: 0;
+    opacity: 2.0
+}
+
+/* header effects */ 
+
+header {
+    min-height: 400px;  
+    background-image: url('../img/monkaa_title.jpg');
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+}
+
+.main-nav li {
+    display: inline;
+    padding: 5px;
+    background-color: aquamarine;
+    margin: 0px
+    
+}
+
+/* sharing sidebad */ 
+
+#social {
+    background-image: url('../img/monkey_crystal_tail.jpg');
+    background-position: left center;
+    background-size: cover;
+    position: absolute;
+    width: 100px;
+    top: 50px;
+    right: 0px;
+    transition: 2s width;
+    opacity: 0.3;
+    color:aquamarine;
+    border: solid
+}
+
+#social:hover {
+    width: 250px;
+    opacity: 1;
+    box-shadow: 5px 5px;
+    color: black;
+}
+
+#social ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#social li {
+    margin: 0;
+    padding: 0;
+}
+
+/*movie*/
+
+#watch {
+    margin: 30px;
+}
+
+/*audio*/
+
+#listen {
+    margin: 30px
+}
+
+/* movie & audio buttons*/
+
+.download-button {
+    display: inline;
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14pt;
+    text-decoration: none;
+    transition: 0.5s
+}
+.download-button:hover {
+    border: solid;
+    color: blue;
+    background-color: white
+}
+
+/* "About" Box */
+
+#about {
+    border: dotted;
+    width: 30%;
+    position: absolute;
+    right: 30px;
+    top: 430px;
+    margin: 30px;
+    padding: 10px;  
+    background-color: aquamarine
+}
+
+.lead {
+    font-style: italic;
+    font-size: 14pt
+}
+
+#about img {
+    height: 100px;
+    width: auto;
+}
+
+.weybec-people {
+    margin: 5px;
+    padding: 5px;
+    float: right;
+    width: 25%
+}
+
+.headshot {
+    margin: 5px;
+}
+
+/* Footer Box */
+
+footer {
+    border: dotted;
+    width: 40%;
+    margin: 30px;
+    padding: 5px
+}
